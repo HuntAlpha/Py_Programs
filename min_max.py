@@ -1,6 +1,6 @@
 l=list(map(int,input().split()))
 p=0
-q=l[5]
+q=l[0]
 for i in range(len(l)):
     if l[i]>p:
         p=l[i]
